@@ -27,7 +27,7 @@ class Body extends React.Component {
                 <div style={{ padding: "0 30px" }} className="col-sm-6 col-md-6 col-lg-6 col-xl-6">
                     <h3 style={{ color: "yellow" }}>{ExtendQuote.titleQuote}</h3>
                     <div className="row">
-                        <div id="myCarousel" className="row carousel slide" data-ride="carousel" data-interval="3000">
+                        <div id="myCarousel" className="row carousel slide" data-ride="carousel" data-interval="2000">
                             <div style={{padding: " 0 15px"}} className="carousel-inner">
                                 <span><img style={{ width: "4%", float: "left" }} src={ExtendQuote.imageLeftQuote} alt="qoute-left" /></span>
                                 <div style={{ padding: "0 0 0 25px" }} className="item active">

@@ -23,7 +23,7 @@ class Carousel extends React.Component {
             <WrapCarousel className="row">
                 <div style={{ padding: '0'}} className="container-fluid">
                     <h2 style={{ color: 'yellow', textAlign: 'center' }} >{this.props.title}</h2>
-                    <div style={{margin: "0"}} id="myCarousel" className="row carousel slide" data-ride="carousel" data-interval="3000" >
+                    <div style={{margin: "0"}} id="myCarousel" className="row carousel slide" data-ride="carousel" data-interval="2000" >
                         <ol className="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -40,16 +40,16 @@ class Carousel extends React.Component {
                                 <img src={this.props.slide2} alt="New York" style={{ width: '100%', height: '450px' }} />
                             </div>
                             <div className="item">
-                                <img src={this.props.slide3} alt="New York" style={{ width: '100%', height: '450px' }} />
+                                <img src={this.props.slide3} alt="Washington" style={{ width: '100%', height: '450px' }} />
                             </div>
                             <div className="item">
-                                <img src={this.props.slide4} alt="New York" style={{ width: '100%', height: '450px' }} />
+                                <img src={this.props.slide4} alt="california" style={{ width: '100%', height: '450px' }} />
                             </div>
                             <div className="item">
-                                <img src={this.props.slide5} alt="New York" style={{ width: '100%', height: '450px' }} />
+                                <img src={this.props.slide5} alt="ohio" style={{ width: '100%', height: '450px' }} />
                             </div>
                             <div className="item">
-                                <img src={this.props.slide6} alt="New York" style={{ width: '100%', height: '450px' }} />
+                                <img src={this.props.slide6} alt="texas" style={{ width: '100%', height: '450px' }} />
                             </div>
                         </div>
                         <a className="left carousel-control" href="#myCarousel" data-slide="prev">
