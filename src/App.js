@@ -9,7 +9,7 @@ import NavbarInfo from './InfoCompanyPage/NavbarInfo'
 import Contact from './ContactPage/Contact'
 import infos from './assets/Data/InfoData'
 
-
+//import icon-font
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPen, faImages, faExclamation, faCopy, faTimes, faClipboard, faBusinessTime, faPhone, faHome } from '@fortawesome/free-solid-svg-icons'
 library.add(faPen, faImages, faExclamation, faCopy, faTimes, faHome, faClipboard, faBusinessTime, faPhone)
