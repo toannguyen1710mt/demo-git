@@ -18,21 +18,6 @@ library.add(faPen, faImages, faExclamation, faCopy, faTimes, faHome, faClipboard
 class App extends Component {
   constructor(props) {
     super(props);
-    // let oldState = localStorage.getItem('newInfos');
-    // if (!oldState) {
-    //   this.state = {
-    //     infos: [
-    //       {
-    //         name: 'Cocacola', address: 'Boulervard Street', action1: 'pen', action2: 'images',
-    //         action3: 'exclamation', action4: 'copy', action5: 'times', id: 1
-    //       },
-    //     ]
-    //   }
-    // }
-    // else {
-    //   this.state = JSON.parse(oldState);
-    // }
-    // localStorage.setItem('newInfos', JSON.stringify(this.state));
     this.state = {
       infos: infos[0],
       OverViewData: infos[1],
