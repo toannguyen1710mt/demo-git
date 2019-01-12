@@ -3,7 +3,6 @@ import SelectBox from '../SelectBox/SelectBox'
 import InputText from '../InputText/InputText'
 import ButtonForm from '../Button/SubmitButton'
 import styled from 'styled-components'
-// import { Link } from 'react-router-dom'
 
 // style for formSubmit
 const FormSubmit = styled.form`
